@@ -1,0 +1,11 @@
+# Modelos e edição livre
+
+A aba Modelos abre Ritual de leitura, Boas-vindas editorial e Planner Rosé em projetos novos, preservando o projeto ativo. Fotos originais geradas para o Atelier, fontes já incorporadas, cartões, textos e componentes são objetos distintos. Trocar a foto mantém sua posição e dimensões; o painel permite escolher outra imagem da biblioteca, carregar PNG/WebP/JPG, alterar arredondamento e enquadramento. JPG é convertido localmente para WebP. Não há dependência de URLs de fotos externas.
+
+Desagrupar relógio está disponível em Digital, Minimal e Vertical. A conversão mede as caixas dos textos e linhas no canvas, preserva posições com rotação do conjunto e produz blocos dinâmicos para horas, minutos, segundos e data; o fundo vira cartão independente. Rótulos e separadores são textos estáticos. A linha pode ser movida, redimensionada ou removida, com espessura própria. A aparência pode variar em detalhes de linhas e ornamentos ao separar; a operação integra desfazer/refazer. Mostradores com ponteiros e os outros modelos mantêm sua estrutura agrupada nesta versão.
+
+O Planner usa a central real existente (hoje, quadro, calendário e tabela), com tarefas de exemplo editáveis. A publicação segue o fluxo existente de compartilhamento. As marcações dos cartões de hábitos e checklist avulsos seguem o armazenamento local existente; eles não são uma base compartilhada de tarefas. Os links internos apontam às seções reais da página. Nenhum cartão de clima fictício foi incluído.
+
+Página longa usa a largura para reduzir proporcionalmente e mantém rolagem vertical no bloco. Esse modo não rearranja colunas no celular: preserva a composição do canvas. O bloco do Notion é uma incorporação da página do Atelier, não uma conversão automática em blocos e bancos de dados nativos do Notion.
+
+Verificações: validação completa dos três projetos, referências de imagens, fontes, coordenadas dentro da arte, tarefas e destinos internos; conversão independente das unidades do relógio e linhas com rotação; horário dinâmico; exportação; regressões de fontes, API de publicação e tarefas. Não houve validação visual em navegador/Notion: o ambiente indica desktop habilitado mas não oferece a ferramenta cua_repl.js, e a instrução do Sites exige não improvisar outro caminho de navegador.
